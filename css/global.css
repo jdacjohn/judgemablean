@@ -1,0 +1,261 @@
+body {
+text-align: center;
+background: #d4c49c;
+color: black;
+font-family: arial;
+font-size: 12px;
+}
+
+body a {
+outline: none;
+color: #657b00;
+}
+
+body a:hover {
+outline: none;
+color: #b3431b;
+}
+
+span {
+	color: #b3431b;
+}
+
+
+
+#container {
+position: relative;
+top: 20px;
+left: 0px;
+margin-left: auto;
+margin-right: auto;
+width: 1000px; 
+text-align: left;
+}
+
+#main_content {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 980px;
+	height: 900px;
+	border: 3px solid #f37c7c;
+	background: #fff URL('../images/colorbg.jpg') top left no-repeat;
+	float: left;	
+	z-index: 0;
+}
+
+#header {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 150px;	
+		z-index: 1;
+}
+
+#header_mast {
+	position: relative;
+	top: 0px;
+	left: 0px;	
+	width: 1000px;
+	float: left;
+	z-index: 50;
+}
+
+.judgepic {
+	position: relative;
+	top: 0px;
+	left: 0px;	
+	width: 175px;
+	float: left;	
+}
+
+.title {
+	position: relative;
+	top: 50px;
+	left: 0px;	
+	width: 517px;
+	float: left;	
+}
+
+.sales_graphic {
+	position: relative;
+	top: 10px;
+	left: 0px;	
+	width: 267px;
+	height: 131px;
+	float: left;
+	background: url('../images/header_salesgraphic.gif') no-repeat;	
+
+}
+
+.header_buynowbtn {
+	width: 123px;
+	text-indent: -3000px;
+	height: 35px;
+}
+
+.header_buynowbtn a {
+	background: url('../images/header_buyit_btn.gif') no-repeat;
+	width: 123px;
+	height: 35px;
+	background-position: 0px 0px;
+	display: block;
+	
+}
+
+.header_buynowbtn a:hover {
+	background-position: 0px -34px;
+	
+}
+
+.navbar {
+	background: url('../images/navbarbg.gif') no-repeat;
+	width: 980px;
+	height: 38px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	float: left;
+} 
+
+/* --------------------------------------- */
+/* --( Navigation )-- */
+/* --------------------------------------- */
+
+/* navlinks*/
+
+ul#navlinks {
+position: relative;
+top: 0px;
+left:0px;
+width: 630px;
+height: 38px;
+margin: 0;
+   padding: 0;
+float: left;
+}
+ul#navlinks,
+ul#navlinks li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul#navlinks li {
+    display: inline;
+}
+ul#navlinks li a {
+    display: block;
+    height: 38px;
+    float: left;
+    background: url('../images/navbarlinks.gif') no-repeat;
+    background-repeat: no-repeat;
+    text-indent: -3000px;
+	outline: none;
+}
+
+ul#navlinks li.home a {
+    width: 63px;
+    background-position: 0px 0px;
+}
+
+ul#navlinks li.home a:hover {
+    background-position: 0px -38px;
+}
+
+ul#navlinks li.about a {
+    width: 70px;
+    background-position: -63px 0px;
+}
+
+ul#navlinks li.about a:hover  {
+    background-position: -63px -38px;
+}
+
+ul#navlinks li.books a {
+    width: 70px;
+    background-position: -133px 0px;
+}
+
+ul#navlinks li.books a:hover  {
+    background-position: -133px -38px;
+}
+
+ul#navlinks li.events a {
+    width: 68px;
+    background-position: -203px 0px;
+}
+
+ul#navlinks li.events a:hover  {
+    background-position: -203px -38px;
+}
+
+ul#navlinks li.askjudge a {
+	width: 161px;
+    background-position: -271px 0px;
+}
+
+ul#navlinks li.askjudge a:hover  {
+    background-position: -271px -38px;
+}
+
+ul#navlinks li.contact a {
+		width: 78px;
+    background-position: -433px 0px;
+}
+
+ul#navlinks li.contact a:hover  {
+    background-position: -433px -38px;
+}
+
+ul#navlinks li.appearances a {
+		width: 118px;
+    background-position: -511px 0px;
+}
+
+ul#navlinks li.appearances a:hover  {
+    background-position: -511px -38px;
+}
+
+
+.mailinglist {
+	position: relative;
+	top: 7px;
+	left: 20px;
+	float: left;
+	width: 350px;	
+}
+
+
+
+#footer {
+	position: relative;
+	top: 24px;
+	left: 50px;
+	float: left;
+	text-align: center;	
+	color:#b3431b;
+	font-family: arial, helvetica;
+	font-size: 12px;
+	width: 980px;
+	padding-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer a{	
+	color: #c02323;
+}
+
+#footer a:hover{	
+	color: black;
+}
+
+.page_content {
+	position: relative;
+	top: 0px;
+	left: 10px;
+	float: left;
+	width: 1000px;
+}
+
+	

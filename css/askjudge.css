@@ -1,0 +1,36 @@
+.askjudgebox_border {
+		background: #fff;
+		border: 2px solid #b3431b;
+		width: 562px;
+		display: block;
+		float: left;
+			position: relative;
+			top: 0px;
+			left: 0px;
+}
+
+.askjudgebox {
+		background: #fff;
+		border: 6px solid #fee977;
+		width: 520px;
+		display: block;
+		float: left;
+			position: relative;
+			top: 0px;
+			left: 0px;
+			padding: 15px;
+}
+
+.ask_form {
+	background: #fffefc;
+	border: 2px solid #bd5c39;
+	width: 328px;
+	display: block;
+	float: left;
+	position: relative;
+	top: 0px;
+	left: 10px;
+
+
+	
+}
